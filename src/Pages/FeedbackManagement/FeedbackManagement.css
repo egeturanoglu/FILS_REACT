@@ -1,0 +1,66 @@
+.feedback-management {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.feedback-management-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feedback-management h2 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.feedback-management .garbage-icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    filter: invert(100);
+}
+
+.feedback-management .garbage-icon:hover {
+    transform: scale(1.1);
+}
+
+.feedback-management .feedback-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback-management .delete-button {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-management .delete-button:hover {
+    background-color: darkred;
+}
+
+.feedback-management .back-button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-management .back-button:hover {
+    background-color: #0056b3;
+}

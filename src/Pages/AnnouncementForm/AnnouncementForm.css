@@ -1,0 +1,38 @@
+.add-announcement-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+.add-announcement-form h3 {
+    color: rgb(16, 16, 150);
+    margin-bottom: 20px;
+}
+
+.add-announcement-form .form-group {
+    margin-bottom: 15px;
+}
+
+.add-announcement-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-announcement-form .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.add-announcement-form .form-group .description-input {
+    height: 100px; /* Adjust this value to make it larger as needed */
+}
+
+.add-announcement-form .form-actions {
+    display: flex;
+    justify-content: space-between;
+}

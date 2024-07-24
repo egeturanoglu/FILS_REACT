@@ -1,0 +1,100 @@
+.coordinator-actions {
+    background-color: white; /* Background color for the actions section */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px; /* Margin for spacing from other elements */
+  }
+  
+  .coordinator-actions h2 {
+    color: rgb(16, 16, 150); /* Title color */
+    font-size: 24px; /* Title font size */
+    margin-bottom: 20px; /* Space between title and actions */
+  }
+  
+  .action-container {
+    background-color: rgb(240, 240, 255); /* Light background color for containers */
+    padding: 15px; /* Padding inside each container */
+    border-radius: 10px; /* Rounded corners for containers */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Light shadow for containers */
+    margin-bottom: 15px; /* Space between containers */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    cursor: pointer; /* Pointer cursor for clickable elements */
+  }
+  
+  .action-container a, .action-container span {
+    color: rgb(16, 16, 150); /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Link font size */
+    display: block; /* Make link fill the container */
+  }
+  
+  .action-container:hover {
+    background-color: rgb(220, 220, 255); /* Slightly darker background on hover */
+  }
+  
+  .add-intern-form {
+    background-color: white; /* Form background color */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin-top: 15px; /* Margin from the action container */
+  }
+  
+  .add-intern-form h3 {
+    color: rgb(16, 16, 150); /* Form title color */
+    margin-bottom: 20px; /* Space between title and form */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  .form-group label {
+    display: block; /* Label as block element */
+    margin-bottom: 5px; /* Space between label and input */
+  }
+  
+  .form-group input {
+    width: 100%; /* Full width input */
+    padding: 8px; /* Padding inside input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }  
+
+  
+  .intern-list {
+    background-color: white; /* Background color for the intern list */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px 0; /* Margin for spacing from other elements */
+  }
+  
+  .intern-item {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: space-between; /* Space between intern name and button */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Padding for spacing */
+    border-bottom: 1px solid #ccc; /* Bottom border for separation */
+  }
+  
+  .intern-item button {
+    background-color: rgb(16, 16, 150); /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .intern-item button:hover {
+    background-color: rgb(12, 12, 120); /* Darker background on hover */
+  }
+  
+  .no-project {
+    font-size: 12px !important; 
+    color: #777;
+    margin-top: 10px;
+}

@@ -1,0 +1,133 @@
+.home-layout {
+  display: flex;
+  height: 100vh;
+  background-color: lightblue; /* Lighter blue background for visibility */
+}
+
+.sidebar {
+  width: 60px;
+  background-color: white; /* Sidebar white */
+  padding: 20px 0; /* Remove side padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align buttons horizontally */
+  transition: width 0.3s; /* Smooth transition for expanding */
+  position: relative; /* For positioning buttons */
+  justify-content: space-between; /* Space between buttons-container and logout button */
+}
+
+.sidebar:hover {
+  width: 200px; /* Expand sidebar on hover */
+}
+
+.sidebar button {
+  background-color: rgb(16, 16, 150); /* Button color */
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 80%; /* Make buttons a bit narrower */
+  border-radius: 10px; /* Smooth edges */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s; /* Smooth transition for hover */
+  overflow: hidden; /* Hide overflow text */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.sidebar button a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar button span.text {
+  display: none; /* Hide button text */
+  margin-left: 10px; /* Spacing between icon and text */
+}
+
+.sidebar:hover button span.text {
+  display: inline; /* Show button text on hover */
+}
+
+.icon {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20px; 
+  height: 20px;
+}
+
+.f_icon {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50px; 
+  height: 50px;
+}
+
+.sidebar .buttons-container {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Add some margin to the top */
+}
+
+.sidebar .logout-button {
+  width: 80%; /* Make logout button width consistent with others */
+  margin-bottom: 20px; /* Margin at the bottom for spacing */
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  background-color: white; /* Topbar white */
+  color: rgb(16, 16, 150); /* Text color */
+  height: 104px; /* Set specific height */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: space-between; /* Space between FILS and right-icons */
+  padding: 0 20px; /* Adjust side padding */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+}
+
+.forvia_logo {
+  margin-left: 10px; /* Space between home icon and forvia logo */
+  width: 250px; 
+  height: 141px;
+}
+
+.home_icon {
+  width: 30px; 
+  height: 30px;
+  filter: invert(100%); /* Make the home icon black */
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(16, 16, 150);
+}

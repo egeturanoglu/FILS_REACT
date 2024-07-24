@@ -1,0 +1,70 @@
+.external-links-container {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.external-links-header-container {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.external-links-header-container h1 {
+    font-size: 36px;
+    color: #4682B4; /* Align with the theme */
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px; /* Space for the underline */
+}
+
+.external-links-header-container h1::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #4682B4; /* Color of the underline */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.external-links-content-container {
+    max-width: 800px;
+    margin: 0 auto; /* Center horizontally */
+    text-align: left; /* Align links to the left */
+}
+
+.external-links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.external-links-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Line between links */
+    padding-bottom: 10px; /* Space between link and line */
+    display: flex; /* Align items horizontally */
+    align-items: center;
+}
+
+.external-links-item a {
+    color: #1E90FF; /* Color for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px; /* Space between link and description */
+}
+
+.external-links-item a:hover {
+    color: #4682B4; /* Change color on hover */
+}
+
+.external-links-description {
+    color: #666; /* Lighter color for descriptions */
+    font-size: 16px;
+}

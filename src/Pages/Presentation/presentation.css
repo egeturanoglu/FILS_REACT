@@ -1,0 +1,61 @@
+/* PresentationsPage.css */
+
+.presentation-page {
+    padding: 20px;
+  }
+  
+  .presentation-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .presentation-page h1 {
+    color: rgb(16, 16, 150);
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .presentation-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .presentation-list li {
+    background-color: white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .presentation-list li a {
+    color: rgb(16, 16, 150);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .presentation-list li a:hover {
+    text-decoration: underline;
+  }
+  
+  .download-button {
+    background-color: rgb(16, 16, 150);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .download-button:hover {
+    background-color: rgb(32, 32, 180);
+  }
+  

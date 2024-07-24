@@ -1,0 +1,127 @@
+/* HomePage.css */
+
+.rectangle-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+    grid-template-rows: 1fr 1fr; /* 2 rows */
+    gap: 20px;
+    padding: 20px;
+    height: calc(100vh - 124px); /* Adjust height to fit within the viewport, considering the topbar */
+    box-sizing: border-box;
+}
+
+.rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    text-align: center;
+    position: relative; /* For positioning the background image */
+    overflow: hidden;
+    background-color: transparent; /* Initially transparent */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.rectangle span {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative; /* To stay on top of the background image */
+    z-index: 1; /* Ensure the text is on top */
+}
+
+.rectangle:hover {
+    transform: scale(1.05);
+    background-color: currentColor; /* Change to the rectangle's color */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3; /* Low opacity for the image */
+    transition: opacity 0.2s ease-in-out; /* Smooth transition for opacity */
+    z-index: 0; /* Ensure the image is behind the text */
+}
+
+.rectangle:hover .background-image {
+    opacity: 0; /* Hide image on hover */
+}
+
+.rectangle:nth-child(1) {
+    color: #FF6347; /* Red */
+}
+
+.rectangle:nth-child(2) {
+    color: #4682B4; /* Blue */
+}
+
+.rectangle:nth-child(3) {
+    color: #32CD32; /* Green */
+}
+
+.rectangle:nth-child(4) {
+    color: #FFD700; /* Yellow */
+}
+
+.rectangle:nth-child(5) {
+    color: #6A5ACD; /* Purple */
+}
+
+.user-photo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #FF4500; /* Orange */
+    color: white; /* Ensure the text is white */
+}
+
+.user-photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 1;
+    filter: brightness(0) invert(1); /* Apply filter to make image white */
+
+}
+
+.progress-arc {
+    width: 140px;
+    height: 140px;
+}
+
+.background-circle {
+    fill: none;
+    stroke: white; /* Change to white */
+    stroke-width: 10;
+}
+
+.foreground-circle {
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    transition: stroke-dashoffset 0.2s ease-in-out, stroke 0.2s ease-in-out;
+}
+
+.remaining-days-text {
+    position: absolute;
+    bottom: 10px;
+    font-size: 18px;
+    z-index: 2;
+    color: white;
+}

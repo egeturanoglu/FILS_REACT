@@ -1,0 +1,84 @@
+.upload-presentation-form {
+    background-color: white; /* Form background color */
+    padding: 20px; /* Padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin: 20px; /* Margin for spacing from other elements */
+  }
+  
+  .upload-presentation-form h3 {
+    color: rgb(16, 16, 150); /* Title color */
+    margin-bottom: 20px; /* Space between title and form */
+  }
+  
+  .form-group {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+  
+  .form-group label {
+    display: block; /* Label as block element */
+    margin-bottom: 5px; /* Space between label and input */
+    color: rgb(16, 16, 150); /* Label color */
+    font-weight: bold; /* Bold label text */
+  }
+  
+  .form-group input[type="file"] {
+    width: 100%; /* Full width input */
+    padding: 8px; /* Padding inside input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    background-color: #f9f9f9; /* Light background color for input */
+  }
+  
+  .form-actions {
+    display: flex; /* Display buttons in a row */
+    justify-content: space-between; /* Space between buttons */
+    align-items: center; /* Align items vertically centered */
+    margin-top: 20px; /* Space between form groups and actions */
+  }
+  
+  .form-actions button {
+    background-color: rgb(16, 16, 150); /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+
+    padding: 10px 20px; /* Padding inside button */
+    cursor: pointer; /* Pointer cursor for buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .form-actions button:hover {
+    background-color: rgb(10, 10, 100); /* Slightly darker background on hover */
+  }
+  
+  .form-actions button[type="button"] {
+    background-color: #ccc; /* Different color for cancel button */
+  }
+  
+  .form-actions button[type="button"]:hover {
+    background-color: #aaa; /* Slightly darker background on hover for cancel button */
+  }
+  .action-container {
+    background-color: rgb(240, 240, 255); /* Light background color for containers */
+    padding: 15px; /* Padding inside each container */
+    border-radius: 10px; /* Rounded corners for containers */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Light shadow for containers */
+    margin-bottom: 25px; /* Increased space between containers */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    cursor: pointer; /* Pointer cursor for clickable elements */
+  }
+  
+  .upload-presentation-form {
+    margin-bottom: 20px; /* Add margin to the bottom of the form to prevent sticking to the next container */
+  }
+  
+  .submit {
+
+    background-color: rgb(16, 16, 150);
+    color: white;
+    margin-bottom: 500px !important;
+    
+
+  }

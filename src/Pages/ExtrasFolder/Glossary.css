@@ -1,0 +1,56 @@
+/* Glossary.css */
+
+.glossary-general-container {
+    padding: 20px;
+    position: relative;
+}
+
+.go-back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #2b00ff;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.go-back-button:hover {
+    color: #ffffff;
+}
+
+.glossary-content-container {
+    margin-top: 60px; /* Space for the go back button */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.glossary-content-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.glossary-list {
+    list-style: none;
+    padding: 0;
+}
+
+.glossary-item {
+    margin-bottom: 20px;
+}
+
+.glossary-term-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.glossary-term-container strong {
+    color: #4682B4; /* Align with the theme */
+}
